@@ -1,8 +1,11 @@
 import './helpDesk.css'
+import { useNavigate } from "react-router-dom";
 import background from './assets/background.jpg';
 import brandLogo from './assets/brandlogo.jpg';  // Adjust the path based on your folder structure
 
 const HelpDeskLanding = () => {
+  const navigate = useNavigate();
+
   return (
     <div className="helpdesk-container" style={{ backgroundImage: `url(${background})` }}>
       <header className="helpdesk-header">
@@ -12,7 +15,7 @@ const HelpDeskLanding = () => {
           <a href="#" >About Us</a>
           <a href="#" >Work</a>
           <a href="#" >Info</a>
-          <button className="helpdesk-button">Get Started</button>
+          <button className="helpdesk-button" onClick={()=> navigate("/knowledgebase")}>Get Started</button>
         </nav>
       </header>
       <main className="helpdesk-main">
@@ -22,7 +25,7 @@ const HelpDeskLanding = () => {
         Centralized service or support system designed to assist users<br/> with technical or operational issues.
     
         </p>
-        <button className="helpdesk-button">Learn More</button>
+        <button className="helpdesk-button"  onClick={() => navigate("/knowledgebase")}>Learn More</button>
         </div>
         {/* Image on the right */}
         <div className="helpdesk-image">
