@@ -1,0 +1,167 @@
+/* General Styling */
+.kb-container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 24px;
+  font-family: 'Arial', sans-serif;
+}
+
+
+/* Header */
+.kb-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 24px;
+    background-color:  #F5F5F5;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.kb-logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.kb-navigation {
+  display: flex;
+  gap: 16px;
+}
+.helpdesk-header nav a {
+  color: #333;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  transition: color 0.3s ease-in-out;
+}
+
+.helpdesk-header nav a:hover {
+  color: #007bff;
+}
+
+.kb-nav-link {
+  color: #555;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.kb-nav-link:hover {
+  color: #007bff;
+}
+
+.kb-signin-btn {
+  background-color: black;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.kb-signin-btn:hover {
+  background-color: #333;
+}
+
+/* Main Section */
+.kb-main {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.kb-title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #222;
+}
+
+.kb-description {
+  margin-top: 10px;
+  color: #666;
+  max-width: 600px;
+}
+
+/* Search Bar */
+.kb-search-container {
+  display: flex;
+  margin-top: 20px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.kb-search-input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px 0 0 4px;
+  outline: none;
+}
+
+.kb-search-btn {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.kb-search-btn:hover {
+  background-color: #218838;
+}
+
+/* Cards Section */
+.kb-section-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 16px;
+  margin-top: 100px;
+  max-width: 1000px;
+  width: 100%;
+}
+
+.kb-card {
+  background: white;
+  padding: 20px;
+  padding-top:20px ;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.kb-card-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.kb-card-description {
+  margin-top: 10px;
+  color: #666;
+}
+
+.kb-readmore-btn {
+  margin-top: 15px;
+  background-color: black;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.kb-readmore-btn:hover {
+  background-color: #444;
+}
+
+.kb-icon {
+  font-size: 40px;  /* Adjust icon size */
+  color: #007bff;  /* Professional blue color */
+  margin-bottom: 10px; /* Space between icon and heading */
+}
+
