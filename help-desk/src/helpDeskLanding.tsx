@@ -15,7 +15,7 @@ const HelpDeskLanding = () => {
           <a href="#" >About Us</a>
           <a href="#" >Work</a>
           <a href="#" >Info</a>
-          <button className="helpdesk-button" onClick={()=> navigate("/knowledgebase")}>Get Started</button>
+          <button className="helpdesk-button" onClick={()=> navigate("/HomePage")}>Get Started</button>
         </nav>
       </header>
       <main className="helpdesk-main">
@@ -25,7 +25,7 @@ const HelpDeskLanding = () => {
         Centralized service or support system designed to assist users<br/> with technical or operational issues.
     
         </p>
-        <button className="helpdesk-button"  onClick={() => navigate("/knowledgebase")}>Learn More</button>
+        <button className="helpdesk-button"  onClick={() => navigate("/HomePage")}>Learn More</button>
         </div>
         {/* Image on the right */}
         <div className="helpdesk-image">
